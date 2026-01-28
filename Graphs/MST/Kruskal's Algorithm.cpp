@@ -80,11 +80,8 @@ class Solution
                }
                
           }
-
           //if(edgesConnexted != V-1) 
-          //"It's not a MST" - REMEMBER THIS ALWAYS if anyone asks you how to check if we formed an MST or not
-
-          
+          //"It's not a MST" - REMEMBER THIS ALWAYS if anyone asks you how to check if we formed an MST or not        
           return sum;
      }
      
