@@ -33,7 +33,7 @@
 
 class Solution
 {
-          public:
+     public:
      //DSU Code
      vector<int> parent;
      vector<int> rank;
