@@ -1,7 +1,7 @@
 // O(n ^2) solution Brute force
 // 1. At first i though only checking the components will be enough that was wrong 
 // 2. than though that only checking indegree and one root check it was also wrong 
-// 3. at last we came to know that we have to check all the three conditions components, Indegree, Root track
+// 3. at last we came to know that we have to check all the three conditions components, Indegree, Root track 
 
 // O(n) Solution Using DSU
 
