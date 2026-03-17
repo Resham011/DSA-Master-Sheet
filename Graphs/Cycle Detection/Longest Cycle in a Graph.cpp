@@ -7,7 +7,7 @@ public:
           inRec[node] = true;
 
           int nbr = edges[node];
-
+            
           if(nbr == -1){ // No edge from this node simply just return by marking inRec as false
                inRec[node] = false;
                return;
