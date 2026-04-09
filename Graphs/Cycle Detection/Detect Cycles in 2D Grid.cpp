@@ -9,7 +9,7 @@ public:
           if(i >= 0 && i < m && j >= 0 && j < n && grid[i][j] == ch) return true;
           return false;
      }
-
+    
      bool dfs(int i, int j, int prev_i, int prev_j, vector<vector<bool>>& vis, vector<vector<char>>& grid){
           vis[i][j] = true;
 
