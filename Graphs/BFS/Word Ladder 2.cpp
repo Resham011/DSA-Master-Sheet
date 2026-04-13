@@ -13,7 +13,7 @@ public:
                vector<string> temp = path;
                reverse(temp.begin(), temp.end());      // reverse since we built path backwards
                ans.push_back(temp);
-               return;
+               return;   
           }
 
           // Explore all parent words of the current word
