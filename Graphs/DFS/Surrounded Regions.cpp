@@ -6,7 +6,7 @@ public:
      void dfs(int i, int j, vector<vector<char>>& board){
           if(i < 0 || j < 0 || i >= m || j >= n || board[i][j] != 'O') return;
                
-          board[i][j] = 'S';
+          board[i][j] = 'S';     
           dfs(i + 1, j, board); // boundary vale "O" ke left right up down jitne bhi directly connected "O" hai vo bhi save hai vo "X" meh convert nhi ho sakte kyuki vo "X" se surrounded nhi ha 4o side se 
           dfs(i - 1, j, board);
           dfs(i, j + 1, board);
