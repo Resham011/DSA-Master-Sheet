@@ -11,7 +11,7 @@ public:
      }
     
      bool dfs(int i, int j, int prev_i, int prev_j, vector<vector<bool>>& vis, vector<vector<char>>& grid){
-          vis[i][j] = true;
+          vis[i][j] = true;      
 
           for(auto& dir : directions){
                int new_i = i + dir[0];
